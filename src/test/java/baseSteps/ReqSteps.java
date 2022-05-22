@@ -15,10 +15,7 @@ import static io.restassured.RestAssured.given;
 
 public class ReqSteps {
 
-    @Когда("^что-то там")
-    public void crUs(){
 
-    }
 
     @Тогда("^создаем юзера")
     public static void createUser() throws IOException {
